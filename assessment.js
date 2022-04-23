@@ -19,7 +19,7 @@ assessmentButton.onclick = () => {
   headerDivided.setAttribute('class', 'card-header');
   headerDivided.innerText = '診断結果';
 
-  // bodyDivide の作成
+  // bodyDivided の作成
   const bodyDivided = document.createElement('div');
   bodyDivided.setAttribute('class', 'card-body');
 
