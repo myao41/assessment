@@ -13,7 +13,7 @@ assessmentButton.onclick = () => {
 
   // 診断結果表示エリアの作成
   resultDivided.innerText = '';
-  const header = document.createElement('h3');
+
   // headerDivided の作成
   const headerDivided = document.createElement('div');
   headerDivided.setAttribute('class', 'card-header');
