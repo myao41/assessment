@@ -26,6 +26,7 @@ assessmentButton.onclick = () => {
   const paragraph = document.createElement('p');
   paragraph.setAttribute('class', 'card-text');
   const result = assessment(userName);
+  paragraph.innerText = result;
   bodyDivided.appendChild(paragraph);
 
   // resultDivided に Bootstrap のスタイルを適用する
